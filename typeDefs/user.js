@@ -1,4 +1,4 @@
-import { gql } from "apollo-server";
+import { gql } from "apollo-server-fastify";
 
 export const User = gql`
   type Picture {
