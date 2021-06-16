@@ -1,4 +1,5 @@
 import { ApolloServer, gql } from "apollo-server";
+// import { ApolloServer, gql } from "apollo-server-fastify";
 
 import { User as UserSchema } from "./typeDefs/user.js";
 import { UserResolver } from "./resovers/UserResolver.js";
@@ -22,6 +23,7 @@ server.listen().then(({ url }) => {
 // For apollo-server-fastify
 // let app = fastify();
 
+// If we want to add additional routes
 // app.get("/", function (request, reply) {
 //   reply.send({ hello: "world" });
 // });
