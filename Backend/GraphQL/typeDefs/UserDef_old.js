@@ -1,6 +1,6 @@
 import { gql } from "apollo-server-fastify";
 
-export const User = gql`
+export const UserDef = gql`
   type Picture {
     large: String
     medium: String
